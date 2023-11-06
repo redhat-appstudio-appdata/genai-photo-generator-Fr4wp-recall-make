@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: genai-photo-generator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: genai-photo-generator
+    app.kubernetes.io/part-of: genai-photo-generator
+  name: genai-photo-generatornqdf
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: genai-photo-generator
+    weight: null
+status: {}
