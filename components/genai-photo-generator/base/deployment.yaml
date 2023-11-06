@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: genai-photo-generator
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/genai-photo-generator/genai-photo-generator@sha256:275be4fd5069bfc7b1c86d95bfda5b68092230a362c6bc3eb12bacf5595af130
         name: my-python
         ports:
         - containerPort: 8081
