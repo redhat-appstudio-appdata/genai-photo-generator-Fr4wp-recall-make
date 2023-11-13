@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/genai-photo-generator/genai-photo-generator@sha256:21711605c7673f5125fadbc5204b39c070a46977c7395a07f95e8a764642677a
+      - image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/genai-photo-generator/genai-photo-generator@sha256:5cebd0d00b20e3f0a3a607ddb2789867ce527d72579fd87d34267ba686a15f3c
         name: my-python
         resources: {}
 status: {}
