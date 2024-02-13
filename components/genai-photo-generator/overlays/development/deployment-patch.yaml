@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: genai-photo-generator
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
